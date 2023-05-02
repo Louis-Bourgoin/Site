@@ -1,0 +1,150 @@
+html {
+color: lightgoldenrodyellow;
+margin: 0px;
+padding: 0px;}
+table{ 
+    width: auto;
+    margin: 5px;
+    position: absolute;
+    background-color: black;
+}
+
+#nom{
+    border: 1px solid black;
+}
+#desc {
+    border: 1px solid black;
+}
+#nb {
+    border: 1px solid black;
+}
+.phtml{
+    height: 20px;
+    background-color: white;
+   
+}
+.pcss{
+    height: 20px;
+    background-color: white;
+   
+}
+.p365{
+    height: 20px;
+    background-color: white;
+    
+}
+.pvsc{
+    height: 20px;
+    background-color: white;
+   
+}
+.pfm{
+    height: 20px;
+    background-color: white;
+  
+}
+.pwin{
+    height: 20px;
+    background-color: white;
+    
+}
+.posx{
+    height: 20px;
+    background-color: white;
+    
+}
+.plinux{
+    height: 20px;
+    background-color: white;
+    
+}
+h2{
+    position: absolute;
+    padding-bottom: 901px;
+}
+h3{position: absolute;
+padding-bottom: 851px;
+
+}
+h4{
+    text-justify: auto;
+    margin: 0px;
+    left: 0px;
+    position: absolute;
+    padding-bottom: 560px;
+}
+html, body { 
+  height: 100%; 
+  margin: 0; 
+  overflow: hidden;
+  overflow: clip; 
+  contain: content;
+}
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #000; 
+    margin:0
+        
+}
+
+* {
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+  background-image: url('Techbackground.jpeg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  }
+  *{
+    margin: 0px;
+    padding: 0px;
+    font-family: Avenir, sans-serif;
+}
+
+nav{
+   margin: 10px auto 40px auto;
+    position: absolute;
+    text-align: center;
+    top: 1px;
+    padding: 0px;
+    width: 850px;
+}
+
+nav ul{
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+nav li{
+    float: left;
+    width: 25%;
+    text-align: center;
+}
+
+
+nav ul::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+nav a{
+    display: block; 
+    text-decoration: none;
+    color: black;
+    border-bottom: 2px solid transparent;
+    padding: 10px 0px;
+}
+
+nav a:hover{
+    color: blue;
+    border-bottom: 2px solid blue;
+}
+
